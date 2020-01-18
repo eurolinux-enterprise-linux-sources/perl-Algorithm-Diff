@@ -1,6 +1,6 @@
 Name:           perl-Algorithm-Diff
 Version:        1.1902
-Release:        16.1%{?dist}
+Release:        17%{?dist}
 Summary:        Algorithm::Diff Perl module
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -59,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1902-17
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 1.1902-16.1
 - Rebuild for perl 5.16
 
